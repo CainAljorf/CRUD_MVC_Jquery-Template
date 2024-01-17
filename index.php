@@ -9,6 +9,7 @@ session_start();
 include("components/header.html");
 
 include("components/pages.php");
+include("module/property/view/list_property.php");
 
 include("components/footer.html");
 
