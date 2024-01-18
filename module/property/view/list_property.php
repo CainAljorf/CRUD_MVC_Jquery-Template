@@ -1,4 +1,4 @@
-<div id="contenido" class="property-list-container">
+<section class="section novi-background section-lg">
     <div class="container" >
     <table>
             <tr>
@@ -55,7 +55,7 @@
             </table>
         </div>
     </div>
-</div>
+</section>
 <!-- Modal -->
 <section id="property_modal">
     

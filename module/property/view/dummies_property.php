@@ -1,4 +1,4 @@
-<div id="contenido">
+<section class="section novi-background section-lg">
     <form autocomplete="on" method="post" name="dummies_property" id="dummies_property">
         <table border='0'>
             <tr>
@@ -13,4 +13,4 @@
             </tr>
         </table>
     </form>
-</div>
+</section>

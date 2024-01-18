@@ -1,4 +1,4 @@
-<div id="contenido" class="form-container">
+<section class="section novi-background section-lg">
     <form autocomplete="on" method="post" name="alta_property" id="alta_property"> 
         <h1>New Property</h1>
         <table width="75%" border="0">
@@ -110,4 +110,4 @@
             </tr>
         </table>
     </form>
-</div>
+</section>

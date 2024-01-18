@@ -1,4 +1,4 @@
-<div id="contenido" class="centered-content">
+<section class="section novi-background section-lg">
     <form autocomplete="on" method="post" name="delete_property" id="delete_property">
         <table border='0'>
             <tr>
@@ -11,4 +11,4 @@
             </tr>
         </table>
     </form>
-</div>
+</section>

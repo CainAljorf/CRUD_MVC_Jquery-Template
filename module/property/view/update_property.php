@@ -1,4 +1,4 @@
-<div id="contenido" class="form-container">
+<section class="section novi-background section-lg">
     <form autocomplete="on" method="post" name="update_property" id="update_property"> 
         <h1>Update Property</h1>
         <table width="auto" border="0">
@@ -143,4 +143,4 @@
             </tr>
             </table>
             </form>
-            </div>
+</section>

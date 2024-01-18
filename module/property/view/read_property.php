@@ -1,4 +1,4 @@
-<div id="contenido">
+<section class="section novi-background section-lg">
     <h1>Property Information</h1>
     <p>
     <table border='2' class="contenidotable">
@@ -77,4 +77,4 @@
     </table>
     </p>
     <p><a class="backbutton" href="index.php?page=controller_property&op=list">Back</a></p>
-</div>
+</section>

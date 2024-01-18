@@ -1,4 +1,4 @@
-<div id="contenido">
+<section class="section novi-background section-lg">
     <form autocomplete="on" method="post" name="delete_all_property" id="delete_all_property">
         <table border='0'>
             <tr>
@@ -15,4 +15,4 @@
         <br>
         <br>
     </form>
-</div>
+</section>
