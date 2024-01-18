@@ -259,7 +259,7 @@ function loadContentModal() {
         })
         .catch(function(error) {
             console.log("Error", error);
-            window.location.href = 'index.php?page=503';
+            // window.location.href = 'index.php?page=503';
         });
     });
 }
