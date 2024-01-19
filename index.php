@@ -1,6 +1,6 @@
 <?php
 
-include("top_page.html");
+include("inc/top_page.html");
 
 session_start();
 

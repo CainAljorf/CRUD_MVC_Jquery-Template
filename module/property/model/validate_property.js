@@ -213,8 +213,7 @@ function operations_property(op) {
     }
 }
 
-function showModal(title_Property, id , $property) {
-    var cadastral_reference = $property['cadastral_reference'];
+function showModal( id , cadastral_reference) {
     $("#details_property").show();
     $("#property_modal").dialog({
         title: 'Details of property ' + id,
@@ -248,7 +247,7 @@ function contentThen(data){
     for (row in data) {
         $('<tr></tr>').html('<td>' + row + '</td><td id=' + row + '>' + data[row] + '</td>').appendTo('#container');
     }
-    showModal(data.brand + " " + data.model, data.id, data);
+    showModal(data.id, data.cadastral_reference);
 }
 function loadContentModal() {
     $('.cadastral_reference').click(function () {

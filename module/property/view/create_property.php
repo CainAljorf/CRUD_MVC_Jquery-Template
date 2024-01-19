@@ -1,10 +1,10 @@
 <section class="section novi-background section-lg">
     <form autocomplete="on" method="post" name="alta_property" id="alta_property"> 
-        <h1>New Property</h1>
+        <h2 align="center">New Property</h2><br><hr><br>
         <table width="75%" border="0">
             <tr> 
                 <td>Cadastral Reference</td>
-                <td><input type="text" name="cadastral_reference" id="cadastral_reference" placeholder="Input the cadastral reference..."></td>
+                <td><input class="form-input" type="text" name="cadastral_reference" id="cadastral_reference" placeholder="Input the cadastral reference..."></td>
                 <td>
                     <font color="red">
                         <span id="error_cadastral_reference" class="error">
@@ -14,7 +14,7 @@
             </tr>
             <tr> 
                 <td>Square Meters</td>
-                <td><input type="text" name="square_meters" id="square_meters" placeholder="Input the square meters..." pattern="\d*"></td>
+                <td><input type="text" class="form-input" name="square_meters" id="square_meters" placeholder="Input the square meters..." pattern="\d*"></td>
                 <td>
                     <font color="red">
                         <span id="error_square_meters" class="error">
@@ -60,7 +60,7 @@
             <tr>
                 <td>Number of Rooms</td>
                 <td>
-                    <select name="number_of_rooms" id="number_of_rooms">
+                    <select class="form-select" name="number_of_rooms" id="number_of_rooms">
                         <option value="">Select number of rooms</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -76,7 +76,7 @@
                 </td>
             <tr> 
                 <td>Comment</td>
-                <td><textarea name="comment" id="comment" rows="4" cols="50" placeholder="Input a commentary..."></textarea></td>
+                <td><textarea class="form-input" name="comment" id="comment" rows="4" cols="50" placeholder="Input a commentary..."></textarea></td>
                 <td>
                     <font color="red">
                         <span id="error_comment" class="error">
@@ -86,7 +86,7 @@
             </tr>
             <tr> 
                 <td>Date of publication</td>
-                <td><input type="text" name="date_publication" id="date_publication" placeholder="Input the date..."></td>
+                <td><input type="text" class="form-input" name="date_publication" id="date_publication" placeholder="Input the date..."></td>
                 <td>
                     <font color="red">
                         <span id="error_date_publication" class="error">
@@ -96,7 +96,7 @@
             </tr>
             <tr> 
                 <td>Price</td>
-                <td><input type="text" name="price" id="price" placeholder="Input the price..."></td>
+                <td><input type="text" class="form-input" name="price" id="price" placeholder="Input the price..."></td>
                 <td>
                     <font color="red">
                         <span id="error_price" class="error">
@@ -105,8 +105,8 @@
                 </td>
             </tr>
             <tr>
-                <td><input type="button" class="styled-button styled-button-green" name="Submit" onclick="validate('create')" value="Add new"/></td>
-                <td align="right"><a class="backbutton" href="index.php?page=controller_property&op=list">Back</a></td>
+                <td><input type="button" class="styled-button styled-button-green button" name="Submit" onclick="validate('create')" value="Add new"/></td>
+                <td align="right"><a class="backbutton button" href="index.php?page=controller_property&op=list">Back</a></td>
             </tr>
         </table>
     </form>

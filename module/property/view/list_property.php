@@ -1,18 +1,27 @@
 <section class="section novi-background section-lg">
-    <div class="container" >
-    <table>
+    <div class="container">
+        <table>
             <tr>
-                <th><h2 align="center">ADD one record</h2><p align="center"><a href="index.php?page=controller_property&op=create" class="add-button"><i class="fas fa-plus"></i></a></p></th>
-                <th><h2 align="center">ADD with Dummies</h2><p align="center"><a href="index.php?page=controller_property&op=dummies" class="add-button"><i class="fas fa-plus"></i></a></p></th>
-                <th><h2 align="center">Delete All</h2><p align="center"><a href="index.php?page=controller_property&op=delete_all" class="add-button"><i class="fas fa-trash"></i></a></p></th>
+                <th>
+                    <h3 align="center">ADD one record</h3>
+                    <p align="center"><a href="index.php?page=controller_property&op=create" class="add-button"><i class="fas fa-plus"></i></a></p>
+                </th>
+                <th>
+                    <h3 align="center">ADD with Dummies</h3>
+                    <p align="center"><a href="index.php?page=controller_property&op=dummies" class="add-button"><i class="fas fa-plus"></i></a></p>
+                </th>
+                <th>
+                    <h3 align="center">Delete All</h3>
+                    <p align="center"><a href="index.php?page=controller_property&op=delete_all" class="add-button"><i class="fas fa-trash"></i></a></p>
+                </th>
             </tr>
         </table>
         <br>
         <div class="row title-row">
-            <h1>Properties list</h1>
+            <h2>Properties list</h2>
         </div>
         <div class="row title-row">
-        <table>
+            <table>
                 <tr>
                     <th width=125><b>Cadastral Reference</b></th>
                     <th width=125><b>Square Meters</b></th>
@@ -41,7 +50,7 @@
                         echo '<td width=125>' . $row['date_publication'] . '</td>';
                         echo '<td width=125>' . $row['price'] . '</td>';
                         echo '<td width=350>';
-                        print ("<div class='cadastral_reference Button_blue' id='".$row['cadastral_reference']."'><i class='fas fa-eye'></i></div>");  //READ
+                        print("<span class='cadastral_reference Button_blue' id='" . $row['cadastral_reference'] . "'><i class='fas fas fa-eye'></i></span>");
                         // echo '<a class="Button_blue" href="index.php?page=controller_property&op=read&id=' . $row['cadastral_reference'] . '"><i class="fas fa-eye"></i></a>';
                         echo '&nbsp;';
                         echo '<a class="Button_green" href="index.php?page=controller_property&op=update&id=' . $row['cadastral_reference'] . '"><i class="fas fa-edit"></i></a>';
@@ -58,5 +67,5 @@
 </section>
 <!-- Modal -->
 <section id="property_modal">
-    
+
 </section>
