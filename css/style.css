@@ -2,6 +2,9 @@
 /*
 * Trunk version 2.0.0
 */
+.large-icon {
+    font-size: 2em; /* Ajusta este valor a tu gusto */
+}
 .table-style {
 	width: 100%;
 	border-collapse: collapse;

@@ -1,18 +1,32 @@
+<section class="section novi-background breadcrumbs-custom bg-image context-dark" style="background-image: url(images/breadcrumbs-image-1.jpg);">
+        <div class="breadcrumbs-custom-inner">
+            <div class="container breadcrumbs-custom-container">
+                <div class="breadcrumbs-custom-main">
+                    <h6 class="breadcrumbs-custom-subtitle title-decorated">Properties</h6>
+                    <h2 class="text-uppercase breadcrumbs-custom-title">Properties</h2>
+                </div>
+                <ul class="breadcrumbs-custom-path">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active">Properties</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 <section class="section novi-background section-lg">
     <div class="container">
         <table>
             <tr>
                 <th>
                     <h3 align="center">ADD one record</h3>
-                    <p align="center"><a href="index.php?page=controller_property&op=create" class="add-button"><i class="fas fa-plus"></i></a></p>
+                    <p align="center"><a href="index.php?page=controller_property&op=create" class="add-button"><i class="fas fa-plus large-icon"></i></a></p>
                 </th>
                 <th>
                     <h3 align="center">ADD with Dummies</h3>
-                    <p align="center"><a href="index.php?page=controller_property&op=dummies" class="add-button"><i class="fas fa-plus"></i></a></p>
+                    <p align="center"><a href="index.php?page=controller_property&op=dummies" class="add-button"><i class="fas fa-plus large-icon"></i></a></p>
                 </th>
                 <th>
                     <h3 align="center">Delete All</h3>
-                    <p align="center"><a href="index.php?page=controller_property&op=delete_all" class="add-button"><i class="fas fa-trash"></i></a></p>
+                    <p align="center"><a href="index.php?page=controller_property&op=delete_all" class="add-button"><i class="fas fa-trash large-icon"></i></a></p>
                 </th>
             </tr>
         </table>
