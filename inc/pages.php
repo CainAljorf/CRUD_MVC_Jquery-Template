@@ -21,10 +21,10 @@
 			include("contacts.html");
 			break;
 		case "404";
-			include("inc/error".$_GET['page'].".php");
+			include("inc/error".$_GET['page'].".html");
 			break;
 		case "503";
-			include("inc/error".$_GET['page'].".php");
+			include("inc/error".$_GET['page'].".html");
 			break;
 		default;
 			include("index.html");
